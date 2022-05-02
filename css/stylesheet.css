@@ -1,15 +1,39 @@
-.body {
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
+body {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .headbox {
-display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 
-.headboxtwo {
+.headlist {
     display: flex;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.boxtwo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../images/spaceone.jpeg);
+}
+
+.inboxone {
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/spacetwo.jpeg);
+}
+
+.inboxtwo {
+    height: 150px;
+    width: 150px;
+    background-image: url(../images/spacethree.jpeg);
 }
 
 .container {
