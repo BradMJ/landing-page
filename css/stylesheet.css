@@ -4,8 +4,10 @@ body {
 }
 
 .headbox {
+    margin: 10px;
+    background-color: maroon;
     display: flex;
-    justify-content: space-between;
+
 }
 
 .headlist {
@@ -15,6 +17,16 @@ body {
 ul {
     display: flex;
     gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: flex;
 }
 
 .boxtwo {
