@@ -1,0 +1,24 @@
+.body {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.headbox {
+display: flex;
+}
+
+.headboxtwo {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid skyblue;
+}
+
