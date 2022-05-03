@@ -1,13 +1,29 @@
 body {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .headbox {
-    margin: 10px;
-    background-color: maroon;
+    background-color: #1F2937;
     display: flex;
+    flex-direction: column;
 
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logotext {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
 }
 
 .headlist {
@@ -21,7 +37,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color:#E5E7EB;
 }
 
 li {
@@ -29,23 +45,40 @@ li {
     display: flex;
 }
 
-.boxtwo {
+.bottom {
+    padding: 30px 50px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(../images/spaceone.jpeg);
+    justify-content: space-evenly;
 }
 
 .inboxone {
-    height: 150px;
-    width: 150px;
-    background-image: url(../images/spacetwo.jpeg);
+    min-height: 250px;
+    width: auto;
+    color: white;
 }
 
 .inboxtwo {
-    height: 150px;
-    width: 150px;
-    background-image: url(../images/spacethree.jpeg);
+    min-height: 150px;
+    width: auto;
+}
+
+.inboxtwo img {
+    max-height: 280px;
+    max-width: 500px;
+}
+
+span {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.wut {
+    background-color: rgb(6, 173, 224);
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+
 }
 
 .container {
@@ -58,3 +91,6 @@ li {
     border: 3px solid skyblue;
 }
 
+.footer {
+    background-color: #1F2937;
+}
