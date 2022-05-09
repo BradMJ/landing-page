@@ -87,7 +87,7 @@ li {
     align-self: center;
 }
 
-span {
+.inboxone p span {
     font-size: 48px;
     font-weight: 900;
 }
@@ -142,7 +142,27 @@ span {
 }
 
 .boxthree {
-    
+    background-color: #E5e7EB;
+    padding: 125px 225px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxthree p {
+    margin: 0;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxthree p span {
+    font-size: 24px;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
